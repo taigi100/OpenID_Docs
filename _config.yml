@@ -1,8 +1,22 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: UE5 OpenID Client Docs
+description: Docs for UE5 OpenID Client plugin
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://taigi100.github.io/OpenID_Docs/
+
+# logo: "/assets/images/logo.png"
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  OpenID Client Marketplace Page: https://www.unrealengine.com/marketplace/en-US/product/openid-client-plugin
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "9.3.0"
+
+color_scheme: dark
+
+callouts:
+  warning:
+    title: Warning
+    color: red
