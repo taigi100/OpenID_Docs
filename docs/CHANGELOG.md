@@ -1,8 +1,16 @@
 ---
 title: CHANGELOG
 layout: default
-nav_order: 3
+nav_order: 6
 ---
+
+# Version 0.5
+
+## New features:
+  - Added back support for Embedded browser flows
+
+## Misc:
+  - New documentation!
 
 # Version 0.4 - Major changes
 

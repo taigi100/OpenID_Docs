@@ -6,31 +6,22 @@ nav_order: 1
 
 This document serves as documentation for the UE5 OpenID Client Plugin.
 
-Check out the CHANGELOG to see what’s new!
+Check out the [CHANGELOG](./docs/CHANGELOG) to see what’s new!
 
 {: .warning }
-This is a code plugin which requires good knowledge of the OpenID protocol. The current version 0.4 does NOT support Facebook login as they don’t support the form_post response mode. Facebook support will be added in future versions.
-
-## Version 0.4
-Version 0.4 comes with some big changes! The plugin finally supports a proper browser login flow. The new flow, redirects the user to a new tab in the platform’s default browser, where the user performs all the steps necessary for authentication and authorization. Afterwards, the browser returns the recieved credentials (token, id_token) to the game instance.
-
-To achieve this, the following workflow is being used:
-```mermaid
-sequenceDiagram
-    UE Game ->> UE5 OpenID Client: Login
-    UE5 OpenID Client ->> Browser: Open Login URL
-    UE5 OpenID Client ->>+ UE5 OpenID Client: Start server at localhost#58;serverPort
-    Browser ->> EndUser: OpenID Flow
-    EndUser ->> Browser: OpenID Flow
-    Browser ->> UE5 OpenID Client: Token + ID_Token via http:#47;#47;localhost:serverPort#47;serverCallback
-    UE5 OpenID Client ->> UE5 OpenID Client: Stop Server
-    deactivate UE5 OpenID Client
-    UE5 OpenID Client ->> UE5 OpenID Client: Add Token to all future requests made via HttpModule
-    UE5 OpenID Client ->> UE Game: User
-```
+This plugin is a code-based solution that requires a thorough understanding of the OpenID protocol in order to be implemented and utilized effectively. It is intended for developers who have a strong grasp of the protocol and its applications, as well as experience in integrating similar solutions into their projects. Utilizing this plugin requires the user to have a good knowledge of the OpenID protocol and its workings.
 
 ## Example project
   [OpenID Complex Browser Example](https://github.com/taigi100/OpenID_Complex_Browser_Example)  - Shows how to log into google and call the APIs afterwards, using [VARest](https://www.unrealengine.com/marketplace/en-US/product/varest-plugin).
 
-## Notes
+---
+
+{: .note }
 You can manualy clear the webcache by deleting the saved\webcache folder within the project.
+
+{: .note }
+I welcome any suggestions and questions to improve the plugin. As I continue to learn how clients are utilizing the plugin, I am committed to finding the right balance of functionality to meet a variety of use-cases. Please do not hesitate to contact me with any feedback or concerns. Your input is valuable to me as I strive to create a plugin that meets the needs of all users.
+
+Contact me:
+ - email: <contact@taigi100.com>
+ - discord: taigi100#0986
