@@ -19,6 +19,6 @@ sequenceDiagram
     UE Game ->> UE5 OpenID Client: Remove WebBrowser Widget
 ```
 
-<!-- To use this flow, simply call the login method as in the following example. Keep in mind to replace the Clinet ID with the proper value. For more information refer to [providers](../providers/providers)
+To use this flow, simply call the login method as in the following example. Keep in mind to replace the Clinet ID with the proper value. For more information refer to [providers](../providers/providers)
 
-<iframe src="https://blueprintue.com/render/2xtrhevf/" scrolling="no" allowfullscreen width="100%" height=600></iframe> -->
+<iframe src="https://blueprintue.com/render/9e-kptjd/" scrolling="no" allowfullscreen width="100%" height=600></iframe>
