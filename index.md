@@ -11,6 +11,10 @@ Check out the [CHANGELOG](./docs/CHANGELOG) to see what’s new!
 {: .warning }
 This plugin is a code-based solution that requires a thorough understanding of the OpenID protocol in order to be implemented and utilized effectively. It is intended for developers who have a strong grasp of the protocol and its applications, as well as experience in integrating similar solutions into their projects. Utilizing this plugin requires the user to have a good knowledge of the OpenID protocol and its workings.
 
+## Android Support
+
+I will add Android support in 5.1.1, as currently Android is broken for code plugins: [https://forums.unrealengine.com/t/5-1-missing-precompiled-manifest-error-when-building-code-plugin-for-android/691983/12](https://forums.unrealengine.com/t/5-1-missing-precompiled-manifest-error-when-building-code-plugin-for-android/691983/12).
+
 ## Example project
   [OpenID Complex Browser Example](https://github.com/taigi100/OpenID_Complex_Browser_Example)  - Shows how to log into google and call the APIs afterwards, using [VARest](https://www.unrealengine.com/marketplace/en-US/product/varest-plugin).
 

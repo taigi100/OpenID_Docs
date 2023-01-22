@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Embedded Browser
-parent: Advanced
+parent: Login Flows
 nav_order: 2
 ---
 

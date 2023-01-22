@@ -1,7 +1,7 @@
 ---
 layout: default
 title: External Browser
-parent: Advanced
+parent: Login Flows
 nav_order: 1
 ---
 
