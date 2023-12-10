@@ -21,6 +21,6 @@ sequenceDiagram
     UE5 OpenID Client ->> UE Game: User
 ```
 
-To use this flow, simply call the login method as in the following example. Keep in mind to replace the Clinet ID with the proper value. For more information refer to [providers](../providers/providers)
+To use this flow, simply call the login method as in the following example. Keep in mind to replace the Clinet ID with the proper value. For more information refer to [providers](../providers/providers). The `Get subsystem` node refers to `OAuth++ Subsystem`.
 
-<iframe src="https://blueprintue.com/render/2xtrhevf/" scrolling="no" allowfullscreen width="100%" height=600></iframe>
+<iframe src="https://blueprintue.com/render/qpb2w1fk/" scrolling="no" allowfullscreen width="100%" height=600></iframe>

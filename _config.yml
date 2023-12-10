@@ -1,5 +1,5 @@
-title: UE5 OpenID Client Docs
-description: Docs for UE5 OpenID Client plugin
+title: OAuth++ Docs
+description: Docs for OAuth++ plugin
 theme: just-the-docs
 
 url: https://taigi100.github.io/OpenID_Docs/
@@ -7,7 +7,7 @@ url: https://taigi100.github.io/OpenID_Docs/
 # logo: "/assets/images/logo.png"
 
 aux_links:
-  OpenID Client Marketplace Page: https://www.unrealengine.com/marketplace/en-US/product/openid-client-plugin
+  OAuth++ Marketplace Page: https://www.unrealengine.com/marketplace/en-US/product/openid-client-plugin
 
 mermaid:
   # Version of mermaid library

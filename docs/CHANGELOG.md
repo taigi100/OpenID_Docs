@@ -4,6 +4,14 @@ layout: default
 nav_order: 6
 ---
 
+# Version 1.0.0
+
+## New features:
+  - Rebranded to OAuth++
+  - Refactored the plugin to serve as a framework for various flows.
+  - Added OOB support for Google, Facebook, and Twitch.
+  - Removed unused functionalities.
+
 # Version 0.5
 
 ## New features:
